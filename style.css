@@ -1,0 +1,439 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 10px 0px;
+    z-index: 1000;
+   
+
+}
+.header video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.logo {
+    font-weight: 800;
+    z-index: 1000;
+    color: antiquewhite;
+    font-size: 1.5em;
+}
+
+.navbar-main ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-main ul li {
+    margin: 0px 4px;
+    padding: 0px 4px;
+    z-index: 1000;
+    font-weight: 500;
+    color: antiquewhite;
+}
+
+.navbar-right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-right ul li {
+    margin: 0px 6px;
+    padding: 0px 6px;
+    z-index: 1000;
+    font-weight: 500;
+    color: antiquewhite;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background:#274f61;
+    mix-blend-mode: overlay;
+
+}
+.text{
+    position: relative;
+    z-index: 10;
+    margin: 10%;
+    
+    
+}
+.text h2{
+    font-size: 2.5em;
+    font-weight: 800;
+    line-height: 1em;
+    margin: 25px 0px;
+   color: rgb(230, 227, 224);
+  
+}
+.options{
+    margin: 10px 0px;
+}
+.explore{
+    display: inline-block;
+    font-size: 1em;
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    border: none;
+    border-radius: 50px;
+}
+.explore:hover{
+    letter-spacing: 6px;
+
+}
+.register{
+    display: inline-block;
+    font-size: 1em;
+    padding: 2.5px 5px;
+    background-color: forestgreen;
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    letter-spacing: 2px;
+    transition: 0.2s;
+    border: none;
+    z-index: 1000;
+   border-radius: 25px;
+}
+.register:hover{
+    letter-spacing: 6px;
+
+}
+.sign-in{
+    display: inline-block;
+    font-size: 1em;
+    padding: 2.5px 5px;
+    background-color: forestgreen;
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    letter-spacing: 2px;
+    transition: 0.2s;
+    border: none;
+    z-index: 1000;
+    border-radius: 25px;
+   
+}
+.sign-in:hover{
+    letter-spacing: 6px;
+
+}
+.search-bar{
+    overflow: hidden;
+    background-color: forestgreen;
+    margin: 9%;
+}
+.search-bar a{
+    float: left;
+    display: block;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.search-bar a:hover {
+    background-color: antiquewhite;
+    color: forestgreen;
+  }
+ 
+  
+  .search-bar .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: forestgreen;
+    color: antiquewhite;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar .search-container button:hover {
+    background: antiquewhite;
+    color: forestgreen;
+  }
+  .mainbanner{
+    margin: 10%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-item{
+    margin: 25px;
+}
+.grid-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.grid-item h3{
+    color: royalblue;
+}
+.grid-item h1{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+.grid-item p{
+    font-size: 13px;
+    color: #274f61;
+}
+.duration{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.star{
+    color: goldenrod;
+}
+.book-now{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-icon{
+    margin: 0px 4px;
+}
+.options{
+    margin: 10px 0px;
+}
+.price{
+    font-size: 25px;
+    font-weight: 500;
+    color: royalblue;
+}
+.text-2 {
+    margin:10%;
+}
+.text-2 h3{
+    color: royalblue;
+}
+.text-2 h2{
+    color: black;
+}
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.tour-1 img{
+    width: 100%;
+    height: 80%; 
+  
+}
+.tour-2 img{
+    width: 100%;
+    height: 80%;
+  
+}
+.tour-3 img{
+    width: 100%;
+    height: 80%;
+}
+.tour-1{
+    margin: 25px;
+    padding: 0px;
+}
+.tour-2{
+    margin: 25px;
+}
+.tour-3{
+    margin: 25px;
+}
+.details{
+    margin: 26px;
+}
+.star-2{
+    margin: 25px;
+    color: goldenrod;
+}
+.text-3{
+    margin: 20%;
+}
+.mainbanner-2{
+    margin: 10%;
+}
+.grid-container-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-item-2{
+    margin: 25px;
+  
+}
+
+.grid-item-2 h3{
+    color: royalblue;
+}
+.grid-item-2 h1{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+.grid-item-2 p{
+    font-size: 13px;
+    color: #274f61;
+}
+.grid-item-2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+  .review img {
+    float: left;
+    margin: 10%;
+    border-radius: 50%;
+    width: 90px;
+    height: 100px;
+  }  
+  .grid-container-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.image-7 img{
+    width:100%;
+    height:80%; 
+  
+}
+.image-8 img{
+    width: 100%;
+    height: 80%;
+  
+}
+.image-9 img{
+    width: 100%;
+    height: 80%;
+}
+.image-10 img{
+    width: 100%;
+    height: 80%;
+}
+.image-7{
+    margin: 5px;
+}
+.image-8{
+    margin: 5px;
+}
+.image-9{
+    margin: 5px;
+}
+.image-10{
+    margin: 5px;
+}
+  .newsletter{
+    text-align: center;
+    background-color: rgb(20, 34, 77);
+    margin: 25px;
+    padding:25px;
+   margin-left: 25%;
+   margin-right: 25%;
+  }
+  .search-box{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-2{
+    background-color: rgb(20, 34, 77);
+    width: 600px;
+    height: 55px;
+    display: flex;
+ }
+ .form-2 input{
+    flex: 1;
+    border: none;
+    outline: none;
+ }
+ .form-2 button{
+    padding: 10px 50px;
+    background-color: rgb(49, 65, 116);
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ .grid-container-5{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+ }
+ .social-media-2{
+    margin: 15%;
+ }
+ .social-media-1{
+    margin: 15%;
+ }
+ .social-media-logo{
+    margin: 15%;
+    text-align: center;
+ }
+.quick-links{
+    margin: 15%;
+    text-align: center;
+}
+.quick-links-text{
+    margin: 15%;
+    text-align: center;
+}
+.company{
+    margin: 15%;
+    text-align: center;
+}
+.company-text{
+    margin: 15%;
+    text-align: center;
+}
+.contact{
+    margin: 15%;
+    text-align: center;
+}
+.contact-text{
+    margin: 15%;
+    text-align: center;
+}
+.copyright{
+    margin: 2.5%;
+    text-align: center;
+}
+.book-now{
+    display: inline-block;
+    font-size: 1em;
+    background-color: royalblue;
+    padding:10px 30px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    transition: 0.2s;
+    border: none;
+    border-radius: 50px;
+}
+.book-now:hover{
+    letter-spacing: 4px;
+}
